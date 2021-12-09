@@ -46,6 +46,7 @@ li {
 
 .Fcontainer {
     display: flex;
+    justify-content: center;
     background-color: #1f2937;
     padding: 100px 200px;
     margin: 0;
