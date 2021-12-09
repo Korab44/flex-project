@@ -9,7 +9,7 @@ body {
     justify-content: center;
     background-color: #1f2937;
     align-items: center;
-    padding: 0px 100px;
+    padding: 0px 200px;
     margin: 0;    
 }
 
@@ -47,7 +47,7 @@ li {
 .Fcontainer {
     display: flex;
     background-color: #1f2937;
-    padding: 100px 100px;
+    padding: 100px 200px;
     margin: 0;
     gap: 50px; 
 }
@@ -75,21 +75,28 @@ li {
 }
 
 button {
+    display: flex;
     color: #f9faf8;
     font-size: 24px;
+    border-radius: 10px;
     background-color: #3882f6;
-    width: 100px;
+    width: 150px;
+    height: 40px;
+    padding: 5px 10px;
+    justify-content: center;
+    border: unset;
 }
 
 img {
     width: 100px;
     height: 100px;
+    border-radius: 10px;
 }
 
 .some {
     font-size: 36px;
     font-weight: bolder; 
-    padding: 20px;
+    padding: 50px 200px;
     text-align: center;
 }
 
@@ -98,7 +105,7 @@ img {
     align-items: center;
     justify-content: center;
     gap: 100px;
-    padding: 20px 100px;
+    padding: 20px 200px;
     padding-bottom: 102px;
 }
 
@@ -112,9 +119,8 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
-    background-color: #e5e7eb;
-    
+    padding: 100px 200px;
+    background-color: #e5e7eb; 
 }
 
 .quote {
@@ -127,4 +133,37 @@ img {
 .author {
     margin-left: 450px;
     font-weight: bolder;
+}
+
+.Thcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.final {
+    display: flex;
+}    
+
+.box {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    padding: 0px 60px;
+    width: 750px;
+    height: 120px;
+} 
+
+.call {
+    font-weight: bolder;
+    color: white;
+    font-size: 36px;
+}
+
+.final {
+    margin-left: auto;
+    border: 2px solid white;
+    border-radius: 10px;
 }
